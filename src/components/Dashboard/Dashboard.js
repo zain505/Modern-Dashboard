@@ -16,16 +16,21 @@ export class Dashboard extends Component {
     }
     revCounterEffect = () => {
         var current = 0;
-        var end = 5566
-        var increment = 1;
-        var stepTime = 0.0009;
+        var end = 5589;
+        var increment = 10;
+        var stepTime = 1;
         var obj = document.getElementById("rev");
         var timer = setInterval(function () {
             current += increment;
+
+            if (current > end)
+                current = end;
+
             obj.innerHTML = `PKR ${current}`;
-            if (current == end) {
+
+            if (current == end)
                 clearInterval(timer);
-            }
+
         }, stepTime);
     }
     saleCounterEffect = () => {
