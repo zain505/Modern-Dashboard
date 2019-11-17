@@ -1,0 +1,88 @@
+body{
+    margin: 1rem;   
+}
+.dashboard-background{
+    padding: 1rem;
+    background: rgb(247, 247, 247);
+    margin: 1rem;
+}
+@font-face{
+    font-family: globalfont;
+    src: url(./fonts/Roboto-Light.ttf);
+}
+h1,h2,h3,h4,h5,h6,b,p,span{
+    font-family: globalfont;
+}
+.flat_icons{
+    font-size: 3rem;
+    color: white;
+    
+}
+.rev_card{
+    background-color: rgb(56, 88, 136);
+}
+.sal_card{
+    background-color: rgb(64, 153, 76);
+}
+.cli_card{
+    background-color: orange;
+}
+.bill_card{
+    background-color: rgb(42, 42, 133);
+}
+.pop_prod{
+    background: rgb(247, 247, 247);
+}
+.pregressbar{
+    width: 6rem !important;
+    height: 6rem;
+}
+
+.prods_wrapper{
+    overflow-y: scroll;
+    height: 340px;
+}
+.img{
+    width: 3rem;
+    height: 3rem;
+    background-color: rgb(92, 13, 13);
+}
+.items{
+    height: 180px;
+}
+/* width */
+.prods_wrapper::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  .prods_wrapper::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }  
+  /* Handle on hover */
+  .prods_wrapper::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+  /* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+  .threeline{
+      height: 400px;
+      overflow-y: scroll;
+  }

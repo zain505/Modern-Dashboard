@@ -1,0 +1,52 @@
+export const invoice=[
+    {
+        id:1,
+        inv:556,
+        status:"pending",
+        amount:66,
+        blnc:88
+},
+{
+    id:2,
+    inv:5556,
+    status:"pending",
+    amount:686,
+    blnc:78
+},
+{
+    id:3,
+    inv:5656,
+    status:"closed",
+    amount:6696,
+    blnc:868
+},
+{
+    id:4,
+    inv:5556,
+    status:"closed",
+    amount:6698,
+    blnc:885
+},
+{
+    id:5,
+    inv:1556,
+    status:"pending",
+    amount:66,
+    blnc:88
+},
+{
+    id:6,
+    inv:556,
+    status:"closed",
+    amount:666,
+    blnc:883
+},
+{
+    id:7,
+    inv:5666,
+    status:"pending",
+    amount:626,
+    blnc:88
+}
+]
+export default invoice;
